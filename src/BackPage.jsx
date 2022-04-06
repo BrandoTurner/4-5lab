@@ -5,7 +5,7 @@ import { Context } from "./App";
 
 const BackPage = () => {
 
-    const MyContext = useContext();
+    const MyContext = useContext(Context);
     return(
         <div>
             <p> Words! </p>

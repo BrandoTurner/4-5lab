@@ -5,7 +5,7 @@ import BackPage from "./BackPage";
 import './App.css';
 
 export const Context = createContext('dark')
-export default function App() {
+ function App() {
   return (
     <Context.Provider value={'light'}>
       <BrowserRouter>
